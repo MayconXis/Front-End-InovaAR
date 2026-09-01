@@ -60,46 +60,15 @@ Feito de propósito **sem frameworks e sem dependências externas de build**, pa
 
 ```
 .
-├── index.html      # a landing page completa (tudo em um arquivo)
+├── index.html      # a landing page completa 
 └── README.md       # este arquivo
 ```
 
-> 💡 Renomeie o arquivo do site para **`index.html`** antes de subir. O GitHub Pages procura por esse nome para abrir a página automaticamente.
-
-## 🚀 Como hospedar no GitHub Pages
-
-1. Suba o `index.html` neste repositório.
-2. Vá em **Settings** (Configurações) do repositório.
-3. No menu lateral, clique em **Pages**.
-4. Em **Source**, escolha a branch `main` e a pasta `/root`.
-5. Clique em **Save**.
-6. Aguarde alguns segundos. O GitHub vai gerar um endereço no formato:
-
    ```
-   https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/
+link landing page: https://mayconxis.github.io/Front-End-InovaAR/
    ```
 
 Pronto. A página estará no ar e pode ser divulgada no Instagram, no Google e no próprio WhatsApp.
-
-## ⚙️ Como personalizar
-
-Quase tudo que muda no dia a dia está em um só lugar. Abra o `index.html` e procure, lá no final, pelo bloco de configuração:
-
-```js
-/* ===== CONFIGURE AQUI ===== */
-var WHATSAPP = "5562982575622";
-var MENSAGEM = "Olá! Vim pela página da InovaAr e quero agendar um serviço de ar-condicionado.";
-/* ========================== */
-```
-
-- **Trocar o número:** altere o valor de `WHATSAPP` (formato: 55 + DDD + número, só dígitos). Todos os botões passam a apontar para ele automaticamente.
-- **Trocar a mensagem inicial:** edite o texto de `MENSAGEM`.
-
-Outros ajustes rápidos:
-
-- **Cores da marca:** ficam no topo do arquivo, na seção `:root` do `<style>` (variáveis como `--navy`, `--azure`, `--leaf`).
-- **Textos e depoimentos:** estão direto no HTML, em português, fáceis de achar e editar.
-- **Fotos e vídeo:** estão embutidos como conteúdo dentro do próprio HTML. Para trocar, basta substituir o trecho correspondente.
 
 ## 🗺️ Seções da página
 
